@@ -40,11 +40,15 @@
 				}
 				String CT = hour + ":" +minute + ":"+ second +" "+am_pm;
 				out.println("현재 접속 시간 : "+CT+"\n");
+				response.setIntHeader("Refresh",5);
 			%>
 		</div>		
 	<hr>
 	</div>
-<%@include file = "footer.jsp" %>
+
+				<p><a href="./products.jsp" class="btn btn-secondary">상품목록</a>
+	
+	<%@include file = "footer.jsp" %>
 	
 </body>
 </html>
