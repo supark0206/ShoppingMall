@@ -5,6 +5,11 @@ import java.util.ArrayList;
 import dto.Product;;
 
 public class ProductRepository {
+	/*
+	 * Product 클래스에서 설정해준 각 속성에 대하여 값을 넣어준다 ArrayList를 활용하여
+	 * 객체를 생성해서 각 상품(phone,notebook,tablet)를 추가해주고 
+	 * 이 추가한 상품목록을 활용할수있게 해준다
+	 */
 	
 	private ArrayList<Product> listOfProducts = new ArrayList<Product>();
 	

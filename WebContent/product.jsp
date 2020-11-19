@@ -1,6 +1,9 @@
 <%@page contentType="text/html; charset=utf-8"%>
 <%@page import="java.util.ArrayList" %>
 <%@page import="dto.Product" %>
+
+<!-- jsp:useBean 을 활용하여 ProductRepository 클래스를 가져와 productDAO로 활용하여
+	ProductRepository에서 작성한 상품의 상세 정보를 보여준다  -->
 <jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session"/>
 <html>
 <head>

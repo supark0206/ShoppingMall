@@ -1,5 +1,9 @@
 <%@page contentType = "text/html; charset=utf-8" %>
 <%@page import="java.util.Date" %>
+
+<!-- 쇼핑몰의 시작페이지 구성
+      java.util.Date 메소드로 시간을 받아서 출력해주고
+      response.setIntHeader()를통해서 원하는 시간마다 페이지를 초기화 시켜준다.  -->
 <html>
 <head>
 <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
